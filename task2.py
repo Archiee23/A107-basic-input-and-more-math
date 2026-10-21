@@ -24,3 +24,14 @@ Your final amount is $39152.94
 You earned $14152.94 interest
 ```
 '''
+
+principal = float(input("Enter the principle "))
+rate = float(input("Enter the annual interest rate as a percent "))
+periods = float(input("Enter the number of compounding periods "))
+time = flooat(input("How long is the investment period in years "))
+
+rate = rate / 100
+
+final_amount = principal
+                      
+
