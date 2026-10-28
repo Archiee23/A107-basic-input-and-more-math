@@ -15,3 +15,9 @@ Enter a length in centimeters: 32
 32 centimeters is 1 feet and 1 inches
 ```
 """
+
+import math
+
+cm = float(input("Enter a length in centimeters: "))
+total inches = cm / 2.54
+
