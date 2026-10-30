@@ -16,8 +16,17 @@ Enter a length in centimeters: 32
 ```
 """
 
+
 import math
 
 cm = float(input("Enter a length in centimeters: "))
-total inches = cm / 2.54
 
+total_inches = cm / 2.54
+
+feet = math.floor(total_inches / 12)
+
+inches = total_inches % 12
+
+inches = round(inches)
+
+print(cm, "centimeters is", feet, "feet and", inches, "inches")
